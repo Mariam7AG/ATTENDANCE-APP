@@ -1,0 +1,139 @@
+
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1435226158/photo/circuit-board-background-computer-data-technology-artificial-intelligence.jpg?s=612x612&w=0&k=20&c=NUf6D4ZgRm6XC7Av2WwmkW5RkHNKbnIgulwmvbEshac=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #d0dbe7; 
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 128, 0, 0.6); 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.signUp_heading {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+    font-weight: bold; 
+}
+
+
+
+.signUp_heading .student {
+    color: #3277cc; 
+}
+
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+
+.label {
+    display: block;
+    font-size: 24px;
+    color: #000; 
+    font-weight: bold;
+}
+
+
+
+.input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #009688; 
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #fff; 
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+
+.input::placeholder {
+    color: #888; 
+}
+
+
+
+.input:hover {
+    border-color: #007bff; 
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2); 
+}
+
+
+
+.add_btn {
+    display: block;
+    width: 100%;
+    background-color: #333; 
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+
+
+.add_btn:hover {
+    background-color: #007bff;
+    color: #fff; 
+}
+
+
+
+.select-div {
+    position: relative;
+}
+
+
+
+.select-div select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #009688; 
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #fff; 
+    color: #007bff; 
+    appearance: none; 
+    font-weight: bold; 
+}
+
+
+
+.select-div::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #009688; 
+    pointer-events: none; 
+}

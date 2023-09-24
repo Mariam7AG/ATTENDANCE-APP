@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="addStudentDetails1.css">
+    
+</head>
+
+
+
+
+<body>
+
+    <div class="container">
+        <h1 class="signUp_heading">ADD STUDENT DETAILS</h1>
+        <div class="form-group">
+            <label for="name">STUDENT NAME:</label>
+            <input class="input" id="name" type="text" placeholder="FULL NAME">
+        </div>
+        <div class="form-group">
+            <label for="fathername">FATHER NAME:</label>
+            <input class="input" id="fathername" type="text" placeholder="FATHER NAME">
+        </div>
+        <div class="form-group">
+            <label for="rollNumber">ROLL NUMBER:</label>
+            <input class="input" id="rollNumber" type="number" placeholder="12345">
+        </div>
+        <div class="form-group">
+            <label for="contact">CONTACT NUMBER:</label>
+            <input class="input" id="contact" type="number" placeholder="01234567890">
+        </div>
+        <div class="form-group">
+            <label for="CNIC">CNIC NUMBER:</label>
+            <input class="input" id="CNIC" type="number" placeholder="42101-12345-1">
+        </div>
+        <div id="showPic">
+        </div>
+        <div class="form-group">
+            <label for="picture">PICTURE:</label>
+            <input id="picture" class="hidden" type="file" accept="image">
+        </div>
+        <div class="form-group">
+            <label for="course">Select Course:</label>
+            <select class="div opt" id="course">
+                <option class="opt" value="">Select Course</option>
+                <option class="opt" value="Web And Mobile">Web And Mobile</option>
+                <option class="opt" value="Graphic Designing">Graphic Designing</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="sir">Select Class:</label>
+            <select id="sir" class="div opt">
+                <option class="opt" value="">Select Class</option>
+                <option class="opt" value="Miss Hina">MISS HINA</option>
+                <option class="opt" value="Miss Iqra">MISS IQRA</option>
+                <option class="opt" value="Sir Saad">SIR SAAD</option>
+            </select>
+        </div>
+        <button class="add_btn" onclick="sendstudentDAta()">SUBMIT</button>
+        <a href="admin.html" style="color: black;">BACK</a>
+        
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./addStudentDetails1.js" type="module"></script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="signupLogin.css"> 
+
+</head>
+
+
+
+<body>
+  
+    <div class="container">
+        <div class="form-container">
+            <h1>SIGNUP</h1>
+            <form id="signup-form">
+                <label for="first-name">FIRST NAME:</label><br>
+                <input type="text" id="first-name" name="first-name" required minlength="3" maxlength="20"><br>
+                <label for="last-name">LAST NAME:</label><br>
+                <input type="text" id="last-name" name="last-name" required minlength="1" maxlength="20"><br>
+                <label for="signup-email">EMAIL:</label><br>
+                <input type="email" id="signup-email" name="signup-email" required><br>
+                <label for="signup-password">PASSWORD:</label><br>
+                <input type="password" id="signup-password" name="signup-password" required pattern="^(?=.*[a-z])(?=.*[A-Z]).{8,}$"><br>
+                <label for="repeat-password">REPEAT PASSWORD:</label><br>
+                <input type="password" id="repeat-password" name="repeat-password" required pattern="^(?=.*[a-z])(?=.*[A-Z]).{8,}$"><br>
+                <input type="file" id="image" name="image"><br>
+                <button type="submit" id="signup-btn">SIGNUP</button>
+                <a href="index.html">Have an account already</a>
+            </form>
+        </div>
+    </div>
+    
+    <script type="module" src="confg.js"></script>
+
+    <script type="module" src="app.js"></script>
+
+</body>
+
+
+
+</html>
